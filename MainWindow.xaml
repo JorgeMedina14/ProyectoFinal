@@ -1,0 +1,22 @@
+﻿<Window x:Class="Proyectofinal.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyectofinal"
+        mc:Ignorable="d"
+        Title="LOGIN" Height="324" Width="719" Background="Transparent">
+    <Grid Background="AliceBlue">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="33"/>
+            <ColumnDefinition Width="49*"/>
+            <ColumnDefinition Width="627*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="usuarios" HorizontalAlignment="Left" Height="24" Margin="231,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141" TextChanged="TextBox_TextChanged" Grid.Column="2"/>
+        <TextBox x:Name="contrase" HorizontalAlignment="Left" Height="23" Margin="231,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="141" TextChanged="TextBox_TextChanged_1" Grid.Column="2"/>
+        <Button Grid.Column="2" Content="ACCEDER" HorizontalAlignment="Left" Margin="246,184,0,0" VerticalAlignment="Top" Click="Button_Click" Height="33" Width="110" Background="Gray" FontFamily="Book Antiqua"/>
+        <Label Grid.Column="2" Content="USUARIO" HorizontalAlignment="Left" Margin="247,41,0,0" VerticalAlignment="Top" FontFamily="Book Antiqua" Height="25" Width="120"/>
+        <Label Grid.Column="2" Content="CONTRASEÑA" HorizontalAlignment="Left" Margin="231,100,0,0" VerticalAlignment="Top" FontFamily="Book Antiqua" Height="25" Width="152"/>
+
+    </Grid>
+</Window>
